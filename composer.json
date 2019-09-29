@@ -1,0 +1,20 @@
+{
+  "name": "tharindu-wj/woo-shipping-grasshoppers",
+  "description": "WooCommerce Grasshoppers Shipping allows a store to obtain shipping rates for your orders dynamically via the Grasshoppers Shipping API.",
+  "type": "wordpress-plugin",
+  "license": "GNU",
+  "authors": [
+    {
+      "name": "Tharindu Wickramasinghe",
+      "email": "tharinduwjh@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grasshoppers\\Inc\\": "./inc"
+    }
+  }
+}
